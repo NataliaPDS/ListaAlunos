@@ -1,0 +1,17 @@
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\bin\Debug\net6.0-windows\4 - ListaDeAlunos.exe
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\bin\Debug\net6.0-windows\4 - ListaDeAlunos.deps.json
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\bin\Debug\net6.0-windows\4 - ListaDeAlunos.runtimeconfig.json
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\bin\Debug\net6.0-windows\4 - ListaDeAlunos.dll
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\bin\Debug\net6.0-windows\4 - ListaDeAlunos.pdb
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.csproj.AssemblyReference.cache
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\_4___ListaDeAlunos.Form1.resources
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.csproj.GenerateResource.cache
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.AssemblyInfoInputs.cache
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.AssemblyInfo.cs
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.csproj.CoreCompileInputs.cache
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.dll
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\refint\4 - ListaDeAlunos.dll
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.pdb
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\4 - ListaDeAlunos.genruntimeconfig.cache
+C:\Users\Master\Documents\Ifro -2B\Programação Orientada de Objetos\3º Bimestre\4 - ListaDeAlunos\4 - ListaDeAlunos\obj\Debug\net6.0-windows\ref\4 - ListaDeAlunos.dll
