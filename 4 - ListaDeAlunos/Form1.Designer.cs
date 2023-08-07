@@ -42,14 +42,17 @@
             textBox5 = new TextBox();
             button2 = new Button();
             button3 = new Button();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(289, 38);
+            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(249, 18);
             label1.Name = "label1";
-            label1.Size = new Size(116, 15);
+            label1.Size = new Size(204, 30);
             label1.TabIndex = 0;
             label1.Text = "Cadastro de Produto";
             // 
@@ -83,7 +86,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(374, 86);
+            label5.Location = new Point(374, 78);
             label5.Name = "label5";
             label5.Size = new Size(61, 15);
             label5.TabIndex = 4;
@@ -92,7 +95,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(382, 131);
+            label6.Location = new Point(382, 114);
             label6.Name = "label6";
             label6.Size = new Size(53, 15);
             label6.TabIndex = 5;
@@ -137,7 +140,7 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(470, 86);
+            textBox4.Location = new Point(470, 70);
             textBox4.Margin = new Padding(3, 2, 3, 2);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(110, 23);
@@ -145,7 +148,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(470, 131);
+            textBox5.Location = new Point(470, 114);
             textBox5.Margin = new Padding(3, 2, 3, 2);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(110, 23);
@@ -172,11 +175,21 @@
             button3.Text = "Excluir";
             button3.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(-7, 246);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(717, 176);
+            dataGridView1.TabIndex = 14;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(700, 419);
+            Controls.Add(dataGridView1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(textBox5);
@@ -194,6 +207,8 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -214,5 +229,6 @@
         private TextBox textBox5;
         private Button button2;
         private Button button3;
+        private DataGridView dataGridView1;
     }
 }
