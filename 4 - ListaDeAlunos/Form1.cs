@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace _4___ListaDeAlunos
 {
     public partial class Form1 : Form
@@ -27,13 +29,17 @@ namespace _4___ListaDeAlunos
 
             //a.ValorDeVenda = Convert.ToDouble(Console.ReadLine());
 
-            produto.Add(a);
+
 
 
 
             double porcentagem = (a.PrecoAquisicao * a.Lucro) / 100.00;
             double totalValorVenda = porcentagem + a.PrecoAquisicao;
             textBox3.Text = totalValorVenda.ToString();
+            produto.Add(a);
+            dataGridView1.DataSource = null;
+            dataGridView1.Refresh();
+            dataGridView1.DataSource = produto;
 
             a.ValorDeVenda = totalValorVenda;
 

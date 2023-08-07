@@ -18,11 +18,6 @@ namespace _4___ListaDeAlunos
 
         public double ValorDeVenda { get; set; }
 
-     /*   public double Porcentagem(double precodeaquisicao, double lucro)
-        {
-            double p = (precodeaquisicao * lucro) / 100.00;
-            return p;
-        }*/
 
         public CalcProduto()
         {
