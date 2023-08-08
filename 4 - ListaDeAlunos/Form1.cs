@@ -39,14 +39,15 @@ namespace _4___ListaDeAlunos
 
             }
 
-            catch (Exception ex)
+            catch (FormatException ex)
             {
-                MessageBox.Show("ERRO!");
+                MessageBox.Show("Formato Inválido! " );
             }
-            finally
+            catch(Exception ex)
             {
-                MessageBox.Show("BYE!!");
+                MessageBox.Show("Ocorreu um erro inesperado!");
             }
+        
             
             //  Console.Clear();//limpar a tela
             //alunos.Sort();//ordernar em ordem alfabetica ou por numero
