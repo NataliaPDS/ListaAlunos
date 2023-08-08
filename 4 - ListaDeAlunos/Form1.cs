@@ -14,39 +14,40 @@ namespace _4___ListaDeAlunos
         private void button2_Click(object sender, EventArgs e)
         {
 
+            try
+            {
+                CalcProduto a = new CalcProduto();
+
+                a.Codigo = textBox1.Text;
+
+                a.Descricao = textBox4.Text;
+
+                a.PrecoAquisicao = Convert.ToDouble(textBox2.Text);//preço
+
+                a.Lucro = Convert.ToDouble(textBox5.Text);
 
 
+                double porcentagem = (a.PrecoAquisicao * a.Lucro) / 100.00;
+                double totalValorVenda = porcentagem + a.PrecoAquisicao;
+                textBox3.Text = totalValorVenda.ToString();
+                produto.Add(a);
+                dataGridView1.DataSource = null;
+                dataGridView1.Refresh();
+                dataGridView1.DataSource = produto;
 
-            CalcProduto a = new CalcProduto();
+                a.ValorDeVenda = totalValorVenda;
 
-            a.Codigo = textBox1.Text;
+            }
 
-            a.Descricao = textBox4.Text;
-
-            a.PrecoAquisicao = Convert.ToDouble(textBox2.Text);//preço
-
-            a.Lucro = Convert.ToDouble(textBox5.Text);
-
-            //a.ValorDeVenda = Convert.ToDouble(Console.ReadLine());
-
-
-
-
-
-            double porcentagem = (a.PrecoAquisicao * a.Lucro) / 100.00;
-            double totalValorVenda = porcentagem + a.PrecoAquisicao;
-            textBox3.Text = totalValorVenda.ToString();
-            produto.Add(a);
-            dataGridView1.DataSource = null;
-            dataGridView1.Refresh();
-            dataGridView1.DataSource = produto;
-
-            a.ValorDeVenda = totalValorVenda;
-
-
-
-
-
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO!");
+            }
+            finally
+            {
+                MessageBox.Show("BYE!!");
+            }
+            
             //  Console.Clear();//limpar a tela
             //alunos.Sort();//ordernar em ordem alfabetica ou por numero
             /*foreach (CalcProduto a in produto)
@@ -74,6 +75,17 @@ namespace _4___ListaDeAlunos
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int index = dataGridView1.CurrentCell.RowIndex;//numero da celula //exclui a celula que o usuario escolher
+            produto.RemoveAt(index);//remove
+           
+            //zerando a tabela e atualizando
+            dataGridView1.DataSource = null;//deixar sem elemento
+            dataGridView1.Refresh();//atualizar
+            dataGridView1.DataSource = produto;
         }
     }
 }

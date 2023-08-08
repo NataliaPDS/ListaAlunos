@@ -174,6 +174,7 @@
             button3.TabIndex = 13;
             button3.Text = "Excluir";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // dataGridView1
             // 
